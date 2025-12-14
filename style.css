@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background-image: url(/app/source/components/background-photo.png);
+}
+
+.navbar-container {
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: 70px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navbar-container ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  gap: 40px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+}
+
+.navbar-container li:hover {
+  color: rgb(0, 255, 85);
+  cursor: pointer;
+}
+
+.navbar-container img {
+  height: 35px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.section-components h1 {font-size: 48px;}
+.section-components p {
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.selection-btn button{
+  margin-top: 40px;
+  background-color: black;
+  color: aliceblue;
+  padding: 15px;
+  border: none;
+  border-radius: 25px
+}
+
+.selection-btn button:hover {
+  cursor: pointer;
+}
+
+#plans {
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.541);
+}
+
+section img {
+  margin-left: 100px;
+}
