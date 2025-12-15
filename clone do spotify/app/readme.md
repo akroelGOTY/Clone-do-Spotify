@@ -26,7 +26,6 @@ O objetivo é replicar a experiência visual e algumas funcionalidades básicas 
 - [x] Modo shuffle e repeat
 - [x] Sidebar com navegação
 - [x] Biblioteca de playlists
-- [x] Busca de músicas
 - [x] Tema escuro (padrão do Spotify)
 
 ## Contribuindo
@@ -41,11 +40,9 @@ Contribuições são bem-vindas! Sinta-se à vontade para:
 
 ## Melhorias Futuras
 
-- [ ] Sistema de login simulado
 - [ ] Equalizer visual
 - [ ] Modo claro/escuro
 - [ ] PWA (Progressive Web App)
-- [ ] Suporte a letras de músicas
 
 ## Licença
 

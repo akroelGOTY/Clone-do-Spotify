@@ -1,10 +1,98 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    height: 100vh;
-    font-family: "Poppins", sans-serif;
+  height: 100vh;
+  font-family: 'Spotify Circular', sans-serif;
+}
+
+
+body, h1, h2, h3, p, button, a, * {
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 500; /* Ajusta: 400 normal, 600 bold, 700 black */
+}
+
+.bg-purple-gradient {
+  background-image: url(/app/source/components/background-photo.png);
+}
+
+.navbar-container {
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: 70px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navbar-container ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  gap: 40px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+}
+
+.navbar-container li:hover {
+  color: rgb(0, 255, 85);
+  cursor: pointer;
+}
+
+.navbar-container img {
+  height: 35px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+section img {
+  height: 260px;
+}
+
+.section-components h1 {
+  font-size: 38px;
+  color: aliceblue;
+  font-weight: 600;
+}
+
+.section-components p {
+  font-size: 15px;
+  margin-top: 10px;
+  color: aliceblue;
+}
+
+.selection-btn button{
+  margin-top: 40px;
+  background-color: #9791ff;
+  color: rgb(0, 0, 0);
+  padding: 15px;
+  padding-left: 35px;
+  padding-right: 35px;
+  border: none;
+  border-radius: 25px;
+  font-weight: 600;
+}
+
+.selection-btn button:hover {
+  cursor: pointer;
+}
+
+#plans {
+  border: 1px solid #7e7e7e;
+  background-color: rgba(0, 0, 0, 0.541);
+  color: #ffffff;
+}
+
+section img {
+  margin-left: 100px;
 }
